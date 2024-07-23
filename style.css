@@ -245,4 +245,23 @@ h3{
     margin: 0px auto;
 }
 
-/*Parei 10:27 do video*/
+
+@media screen and (max-width:750px){
+    #container,#topo, #primario, #secundario, #lateral{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto; 
+
+    }
+}
+
+
+
+
+@media screen and (max-width:380px){
+    #container-rodape, #rodape{
+        display: none;
+ 
+    }
+
+}
